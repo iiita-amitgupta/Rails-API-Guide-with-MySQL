@@ -30,7 +30,7 @@ class Api::V1::FactsController < ApplicationController
     def destroy
         if @fact
             @fact.destroy
-            render json: { message: 'Fact successfully deleted.' } status: 200
+            render json: { message: 'Fact successfully deleted.' }, status: 200
         else
             render json: {error: 'Unable to delete fact.' }, status: 400
         end
@@ -45,5 +45,5 @@ class Api::V1::FactsController < ApplicationController
     def find_fact
         @fact = Fact.find(params[:id])
     end
-    
+
 end
