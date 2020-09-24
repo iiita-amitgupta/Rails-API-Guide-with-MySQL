@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Creating a REST API with Rails and using MySQL as a database.
 
-Things you may want to cover:
+* For more details of the code you can visit:(http://localhost:3000/api/v1/users/1/facts)
 
-* Ruby version
+* This code is running smoothly.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* First run the server, then use the following URLs to get the output
+1. For Details of the numbers of Users(http://localhost:3000/api/v1/users)
+2. For Details about the facts(http://localhost:3000/api/v1/facts)
